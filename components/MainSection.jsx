@@ -51,7 +51,7 @@ const MainSection = () => {
   return (
     <section className="tweetContainer h-full mb-20">
       <div className="tab-buttons flex gap-5 pb-10 text-xl items-center">
-        <div className="pb-1 sm:pb-0 flex gap-5 text-xl overflow-x-auto">
+        <div className="pb-1 sm:pb-0 flex gap-5 text-xl overflow-x-auto sm:overflow-visible">
           {tags.map((tag) => (
             <button
               key={tag.id}
